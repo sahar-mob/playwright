@@ -1,0 +1,26 @@
+[
+  {
+    "name": "🚨 Product defects",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*expect.*"
+  },
+  {
+    "name": "⏱️ Timeout issues",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*Timeout.*"
+  },
+  {
+    "name": "🔍 Locator issues",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*locator.*"
+  },
+  {
+    "name": "🌐 Network issues",
+    "matchedStatuses": ["broken"],
+    "messageRegex": ".*net::.*"
+  },
+  {
+    "name": "❓ Unknown errors",
+    "matchedStatuses": ["broken"]
+  }
+]

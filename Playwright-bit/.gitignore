@@ -1,0 +1,25 @@
+/chrome-profile/
+/storageState.json
+# پکیج‌ها و کدهای کامپایل‌شده
+node_modules/
+dist/
+
+# گزارش‌ها و فایل‌های موقت Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# گزارش‌ها و نتایج Allure
+allure-results/
+allure-report/
+
+# متغیرهای محیطی حساس (رمزها، توکن‌ها)
+.env
+.env.local
+
+# فایل‌های موقت سیستم‌عامل و ادیتور
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
